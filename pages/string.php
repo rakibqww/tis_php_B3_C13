@@ -28,34 +28,28 @@
         <div class="row">
             <div class="col-md-8 mx-auto">
                 <div class="card">
-                    <div class="card-header">My Series</div>
+                    <div class="card-header">My String</div>
                     <div class="card-body">
                         <form action="action.php" method="POST">
                             <div class="form-group row">
-                                <label class="col-md-3 col-form-label">Starting Number</label>
+                                <label class="col-md-3 col-form-label">Enter Your String</label>
                                 <div class="col-md-9">
-                                    <input type="number" required class="form-control" name="starting_number"/>
+                                    <input type="text" required class="form-control" name="given_string"/>
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-md-3 col-form-label">Ending Number</label>
+                                <label class="col-md-3 col-form-label">Total Word</label>
                                 <div class="col-md-9">
-                                    <input type="number" required class="form-control" name="ending_number"/>
+                                    <input type="number"  class="form-control"/>
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-md-3 col-form-label">Odd | Even</label>
+                                <label class="col-md-3 col-form-label">Total Character</label>
                                 <div class="col-md-9">
-                                   <label> <input type="radio" value="odd" name="odd_even"/>Odd</label>
-                                   <label> <input type="radio" value="even" name="odd_even"/>Even</label>
+                                   <input type="number" class="form-control" />
                                 </div>
                             </div>
-                            <div class="form-group row">
-                                <label class="col-md-3 col-form-label">Result</label>
-                                <div class="col-md-9">
-                                    <textarea class="form-control" readonly><?php echo isset($result) ? $result: ' '; ?></textarea>
-                                </div>
-                            </div>
+                            
                             <div class="form-group row">
                                 <label class="col-md-3 col-form-label">Result</label>
                                 <div class="col-md-9">
@@ -78,48 +72,48 @@
         <section class="mb-4">
             <!-- Facebook -->
             <a class="btn btn-link btn-floating btn-lg text-dark m-1"
-                    href="#!"
-                    role="button"
-                    data-mdb-ripple-color="dark"
+               href="#!"
+               role="button"
+               data-mdb-ripple-color="dark"
             ><i class="fab fa-facebook-f"></i
                 ></a>
 
             <!-- Twitter -->
             <a class="btn btn-link btn-floating btn-lg text-dark m-1"
-                    href="#!"
-                    role="button"
-                    data-mdb-ripple-color="dark"
+               href="#!"
+               role="button"
+               data-mdb-ripple-color="dark"
             ><i class="fab fa-twitter"></i
                 ></a>
 
             <!-- Google -->
             <a class="btn btn-link btn-floating btn-lg text-dark m-1"
-                    href="#!"
-                    role="button"
-                    data-mdb-ripple-color="dark"
+               href="#!"
+               role="button"
+               data-mdb-ripple-color="dark"
             ><i class="fab fa-google"></i
                 ></a>
 
             <!-- Instagram -->
             <a class="btn btn-link btn-floating btn-lg text-dark m-1"
-                    href="#!"
-                    role="button"
-                    data-mdb-ripple-color="dark"
+               href="#!"
+               role="button"
+               data-mdb-ripple-color="dark"
             ><i class="fab fa-instagram"></i
                 ></a>
 
             <!-- Linkedin -->
             <a class="btn btn-link btn-floating btn-lg text-dark m-1"
-                    href="#!"
-                    role="button"
-                    data-mdb-ripple-color="dark"
+               href="#!"
+               role="button"
+               data-mdb-ripple-color="dark"
             ><i class="fab fa-linkedin"></i
                 ></a>
             <!-- Github -->
             <a class="btn btn-link btn-floating btn-lg text-dark m-1"
-                    href="#!"
-                    role="button"
-                    data-mdb-ripple-color="dark"
+               href="#!"
+               role="button"
+               data-mdb-ripple-color="dark"
             ><i class="fab fa-github"></i
                 ></a>
         </section>
